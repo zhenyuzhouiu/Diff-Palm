@@ -1,0 +1,7 @@
+blobfile>=1.0.5
+numpy
+torch
+torchvision
+tqdm
+shapely
+opencv-python

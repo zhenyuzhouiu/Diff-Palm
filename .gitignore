@@ -1,0 +1,131 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pyenv/
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+__pycache__
+local_settings.py
+
+# Flask stuff:
+instance/
+*.pyc
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Celery stuff
+celerybeat-schedule
+
+# Unit test / coverage reports
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.tox/
+.nox/
+coverage.xml
+nosetests.xml
+test-output/
+.junit.xml
+behave-json-report/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Virtualenv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+env.bak/
+.venv/
+env/
+
+# Spyder IDE
+.spyderproject
+.spyproject
+
+# Rope IDE
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytype static typing
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Pycharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Others
+*.swp
+*~
+*.pt
+output/
+
+# MacOS
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that are uploaded to the platform
+uploads/
+
+DiffModels/checkpoint/*
+DiffModels/output_zhenyu/*
+PolyCreases/coeff_test/*
+PolyCreases/test-images/*
