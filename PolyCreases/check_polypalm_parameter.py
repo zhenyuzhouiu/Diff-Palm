@@ -26,6 +26,7 @@ def show(curve_set, secondary_line, thickness=25):
     image = cv2.resize(image, [image_size,]*2)
 
     for secondary in secondary_line:
+        # secondary[4] is in the range of 2 to 5 on the 512x512 image resolution
         cv2.line(image, (int(secondary[0]), int(secondary[1])), (int(secondary[2]), int(secondary[3])), (0, 0, 0), secondary[4])
     
     return image
